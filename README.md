@@ -1,9 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 📸 Demo
-
-![Screenshot](https://i.ibb.co/v6htXmpM/Screenshot-2025-11-17-at-00-03-51.png)
-
 ## Getting Started
 
 First, run the development server:
@@ -38,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📸 Demo
+
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/1.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/2.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/3.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/4.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/5.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/6.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/7.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/8.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/9.png)
+![Screenshot](https://xiaomi-landing-4er4.vercel.app/demo/10.png)
