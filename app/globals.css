@@ -3,18 +3,200 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Xiaomi brand palette */
+  --primary-100: #fff3d5;
+  --primary-200: #ffe8ab;
+  --primary-300: #ffdd80;
+  --primary-400: #ffd252;
+  --primary-500: #ffc700;
+  --primary-600: #c79b12;
+  --primary-700: #917217;
+  --primary-800: #604b16;
+  --primary-900: #322811;
+
+  --secondary-100: #d7d7da;
+  --secondary-200: #b0b1b6;
+  --secondary-300: #8b8c93;
+  --secondary-400: #676972;
+  --secondary-500: #454852;
+  --secondary-600: #383a42;
+  --secondary-700: #2b2d32;
+  --secondary-800: #1f2023;
+  --secondary-900: #131415;
+
+  --tertiary-500: #2f3547;
+
+  --neutral-0: #ffffff;
+  --neutral-100: #f0f0f0;
+  --neutral-200: #d2d2d2;
+  --neutral-300: #b1b1b1;
+  --neutral-400: #929292;
+  --neutral-500: #5d5d5d;
+  --neutral-600: #353535;
+  --neutral-700: #2c2c2c;
+  --neutral-800: #252525;
+  --neutral-900: #1f1f1f;
+
+  --alpha-white-0: rgba(255, 255, 255, 0.01);
+  --alpha-white-10: rgba(255, 255, 255, 0.1);
+  --alpha-white-20: rgba(255, 255, 255, 0.2);
+  --alpha-white-30: rgba(255, 255, 255, 0.3);
+  --alpha-white-40: rgba(255, 255, 255, 0.4);
+  --alpha-white-50: rgba(255, 255, 255, 0.5);
+  --alpha-white-60: rgba(255, 255, 255, 0.6);
+  --alpha-white-70: rgba(255, 255, 255, 0.7);
+  --alpha-white-80: rgba(255, 255, 255, 0.8);
+  --alpha-white-90: rgba(255, 255, 255, 0.9);
+
+  --alpha-black-0: rgba(0, 0, 0, 0.01);
+  --alpha-black-10: rgba(0, 0, 0, 0.1);
+  --alpha-black-20: rgba(0, 0, 0, 0.2);
+  --alpha-black-30: rgba(0, 0, 0, 0.3);
+  --alpha-black-40: rgba(0, 0, 0, 0.4);
+  --alpha-black-50: rgba(0, 0, 0, 0.5);
+  --alpha-black-60: rgba(0, 0, 0, 0.6);
+  --alpha-black-70: rgba(0, 0, 0, 0.7);
+  --alpha-black-80: rgba(0, 0, 0, 0.8);
+  --alpha-black-90: rgba(0, 0, 0, 0.9);
+
+  --dm-2: 2px;
+  --dm-4: 4px;
+  --dm-8: 8px;
+  --dm-10: 10px;
+  --dm-12: 12px;
+  --dm-14: 14px;
+  --dm-16: 16px;
+  --dm-18: 18px;
+  --dm-20: 20px;
+  --dm-24: 24px;
+  --dm-28: 28px;
+  --dm-32: 32px;
+  --dm-36: 36px;
+  --dm-40: 40px;
+  --dm-44: 44px;
+  --dm-48: 48px;
+  --dm-52: 52px;
+  --dm-56: 56px;
+  --dm-64: 64px;
+  --dm-72: 72px;
+  --dm-80: 80px;
+  --dm-88: 88px;
+  --dm-96: 96px;
+  --dm-112: 112px;
+  --dm-128: 128px;
+  --dm-144: 144px;
+  --dm-160: 160px;
+  --dm-184: 184px;
+  --dm-200: 200px;
+  --dm-240: 240px;
+  --dm-1000: 1000px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  /* Primary colors */
+  --color-primary-100: var(--primary-100);
+  --color-primary-200: var(--primary-200);
+  --color-primary-300: var(--primary-300);
+  --color-primary-400: var(--primary-400);
+  --color-primary-500: var(--primary-500);
+  --color-primary-600: var(--primary-600);
+  --color-primary-700: var(--primary-700);
+  --color-primary-800: var(--primary-800);
+  --color-primary-900: var(--primary-900);
+  
+  /* Secondary colors */
+  --color-secondary-100: var(--secondary-100);
+  --color-secondary-200: var(--secondary-200);
+  --color-secondary-300: var(--secondary-300);
+  --color-secondary-400: var(--secondary-400);
+  --color-secondary-500: var(--secondary-500);
+  --color-secondary-600: var(--secondary-600);
+  --color-secondary-700: var(--secondary-700);
+  --color-secondary-800: var(--secondary-800);
+  --color-secondary-900: var(--secondary-900);
+  
+  /* Tertiary colors */
+  --color-tertiary-500: var(--tertiary-500);
+  
+  /* Neutral colors */
+  --color-neutral-0: var(--neutral-0);
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-300: var(--neutral-300);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-500: var(--neutral-500);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-900: var(--neutral-900);
+  
+  /* Alpha white colors */
+  --color-alpha-white-0: var(--alpha-white-0);
+  --color-alpha-white-10: var(--alpha-white-10);
+  --color-alpha-white-20: var(--alpha-white-20);
+  --color-alpha-white-30: var(--alpha-white-30);
+  --color-alpha-white-40: var(--alpha-white-40);
+  --color-alpha-white-50: var(--alpha-white-50);
+  --color-alpha-white-60: var(--alpha-white-60);
+  --color-alpha-white-70: var(--alpha-white-70);
+  --color-alpha-white-80: var(--alpha-white-80);
+  --color-alpha-white-90: var(--alpha-white-90);
+  
+  /* Alpha black colors */
+  --color-alpha-black-0: var(--alpha-black-0);
+  --color-alpha-black-10: var(--alpha-black-10);
+  --color-alpha-black-20: var(--alpha-black-20);
+  --color-alpha-black-30: var(--alpha-black-30);
+  --color-alpha-black-40: var(--alpha-black-40);
+  --color-alpha-black-50: var(--alpha-black-50);
+  --color-alpha-black-60: var(--alpha-black-60);
+  --color-alpha-black-70: var(--alpha-black-70);
+  --color-alpha-black-80: var(--alpha-black-80);
+  --color-alpha-black-90: var(--alpha-black-90);
+  
+  /* Spacing dimensions */
+  --spacing-dm-2: var(--dm-2);
+  --spacing-dm-4: var(--dm-4);
+  --spacing-dm-8: var(--dm-8);
+  --spacing-dm-10: var(--dm-10);
+  --spacing-dm-12: var(--dm-12);
+  --spacing-dm-14: var(--dm-14);
+  --spacing-dm-16: var(--dm-16);
+  --spacing-dm-18: var(--dm-18);
+  --spacing-dm-20: var(--dm-20);
+  --spacing-dm-24: var(--dm-24);
+  --spacing-dm-28: var(--dm-28);
+  --spacing-dm-32: var(--dm-32);
+  --spacing-dm-36: var(--dm-36);
+  --spacing-dm-40: var(--dm-40);
+  --spacing-dm-44: var(--dm-44);
+  --spacing-dm-48: var(--dm-48);
+  --spacing-dm-52: var(--dm-52);
+  --spacing-dm-56: var(--dm-56);
+  --spacing-dm-64: var(--dm-64);
+  --spacing-dm-72: var(--dm-72);
+  --spacing-dm-80: var(--dm-80);
+  --spacing-dm-88: var(--dm-88);
+  --spacing-dm-96: var(--dm-96);
+  --spacing-dm-112: var(--dm-112);
+  --spacing-dm-128: var(--dm-128);
+  --spacing-dm-144: var(--dm-144);
+  --spacing-dm-160: var(--dm-160);
+  --spacing-dm-184: var(--dm-184);
+  --spacing-dm-200: var(--dm-200);
+  --spacing-dm-240: var(--dm-240);
+  --spacing-dm-1000: var(--dm-1000);
+
+  --text-2xs: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #101011;
     --foreground: #ededed;
   }
 }
@@ -22,5 +204,23 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-800);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-700);
 }
